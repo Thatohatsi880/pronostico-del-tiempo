@@ -4,7 +4,7 @@ body{
 }
 
 a{
-    background-color: whitesmoke;
+    background-color: rgb(213, 180, 120);
 }
 
 
@@ -23,7 +23,7 @@ header{
 }
 
 .search-form-input{
-    background-color: rgb(198, 157, 192);
+    background-color: rgb(177, 129, 87);;
     border:none;
     border-radius:6px;
     width: 80%;
@@ -64,7 +64,7 @@ header{
     }
 
     .weather-app-details strong{
-        color:plum;
+        color:rgb(16, 216, 238);
     }
 
     .weather-app-temperature-container{

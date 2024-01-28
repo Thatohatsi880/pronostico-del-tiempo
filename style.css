@@ -4,7 +4,7 @@ body{
 }
 
 a{
-    background-color: rgb(213, 180, 120);
+    background-color:  rgb(198, 157, 192);
 }
 
 
@@ -23,7 +23,7 @@ header{
 }
 
 .search-form-input{
-    background-color: rgb(177, 129, 87);;
+    background-color:rgb(129, 130, 180);
     border:none;
     border-radius:6px;
     width: 80%;

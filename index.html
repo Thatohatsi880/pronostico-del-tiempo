@@ -9,9 +9,9 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-    <title>Meteo App</title>
+    <title>The Pronostico App</title>
   </head>
   <body>
     <div class="weather-app">
@@ -32,20 +32,21 @@
           <div>
             <h1 class="weather-app-city" id="city"></h1>
             <p class="weather-app-details">
-              <span id="time"></span> 
+              <span id="time"></span>,
               <span id="description"></span>
               <br />
-              Humidity: <strong id="humidity"></strong>, Wind: 
+              Humidity: <strong id="humidity"></strong>, Wind:
               <strong id="wind-speed"></strong>
             </p>
           </div>
           <div class="weather-app-temperature-container">
-            <div class="weather-app-icon">☁️</div>
+            <div id="icon"></div>
             <div class="weather-app-temperature" id="temperature"></div>
             <div class="weatehr-app-unit">°C</div>
           </div>
         </div>
       </main>
+
 
       <footer>
         This project was coded by

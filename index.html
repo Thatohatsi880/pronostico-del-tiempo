@@ -15,16 +15,16 @@
 <body>
     <div class="weather-app">
     <header>
-       <form class="search">
-         <input type="search" placeholder="Enter a city..." required class="search-form-input"/>
+       <form class="search" id="search">
+         <input type="search" placeholder="Enter a city..." required id="search-input" class="search-form-input"/>
          <input type="submit" value="Search" class="search-form-button"/>
        </form>
     </header>
     <main>
         <div class="weather-app-data">
         <div>
-        <h1 class="weather-app-city">
-            San Francisco
+        <h1 class="weather-app-city"
+             id="city"> San Francisco
          </h1>
          <p class="weather-app-details">
             Sunday 12:44, broken clouds
@@ -47,5 +47,6 @@
         <a href = "https://pronostico-application.netlify.app" target="_blank"> hosted on Netlify</a>
     </footer>
 </div>
+<script src="index.js"></script>
 </body>
 </html>

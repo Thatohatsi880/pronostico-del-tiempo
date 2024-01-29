@@ -1,6 +1,6 @@
 body{
     background-color: rgb(129, 130, 180);
-    font-family: "Spectral", serif;
+    font-family: "Spicy Rice", serif;
 }
 
 a{
@@ -68,7 +68,7 @@ header{
     }
 
     .weather-app-details strong{
-        color:rgb(16, 216, 238);
+        color:rgb(53, 19, 191);
     }
 
     .weather-app-temperature-container{
@@ -76,20 +76,19 @@ header{
     }
 
     .weather-app-icon{
-        font-size: 88px;
-        margin-top: 88px;
+        font-size: 44px;
+        margin-top: 22px;
 
     }
 
     .weather-app-temperature{
         font-size: 88px;
         margin-left: 10px;
-        line-height: 88px;
         font-weight: bold;
     }
 
     .weather-app-unit{
-        margin-top: 6px;
+        margin-top: 16px;
         font-size: 28px;
     }
 
